@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        /* position harus ada property top/bottom left/right */
+        .kotak-static {
+            position: static;
+            width: 400px;
+            height: 400px;
+            background-color: blue;
+        }
+        .kotak-relative {
+            position: relative;
+            top: 100px;
+            right: 100px;
+            width: 400px;
+            height: 400px;
+            background-color: maroon;
+        }
+        .kotak-absolute {
+            position: absolute;
+            top: 100px;
+            right: 100px;
+            width: 400px;
+            height: 400px;
+            background-color: green;
+        }
+        .kotak-fixed {
+            position: fixed;
+            top: 100px;
+            right: 100px;
+            width: 400px;
+            height: 400px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak-static">Kotak Static</div>
+    <div class="kotak-static">Kotak Static</div>
+    <div class="kotak-static">Kotak Static</div>
+    <div class="kotak-static">Kotak Static</div>
+    <div class="kotak-relative">Kotak Relative</div>
+    <div class="kotak-absolute">Kotak Absolute</div>
+    <div class="kotak-fixed">Kotak Fixed</div>
+</body>
+</html>

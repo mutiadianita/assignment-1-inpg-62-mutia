@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penggunaan CSS</title>
+    <!-- INTERNAL STYLING  -->
+    <style>
+        /* selector nama element/tag  */
+        h2 {
+            color: brown;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        /* selector id */
+        #subjudul3 {
+            color: white;
+        }
+        /* selector class  */
+        .teks-hijau {
+            color: green;
+        }
+        .bg-kuning {
+            background-color: yellow;
+        }
+        .bg-biru {
+            background-color: blue;
+        }
+        #judul1 {
+            background-color: green;
+        }
+        h1 {
+            background-color: pink;
+        }
+    </style>
+    <!-- EXTERNAL STYLING  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- INLINE STYLING  -->
+    <h1 id="judul1" class="bg-kuning" style="color: blue; background-color: #71bef5; font-size: 28px; font-family: Arial, Helvetica, sans-serif;">Judul 1</h1>
+    <h2 class="bg-kuning bg-biru">Sub Judul 1</h2>
+    <h2 class="teks-hijau">Sub Judul 2</h2>
+    <h2 id="subjudul3">Sub Judul 3</h2>
+    <p class="teks-hijau bg-kuning">Paragraf</p>
+    <div class="artikel">
+        <h1>Article Children</h1>
+    </div>
+    <h1>H1</h1>
+    <span class="teks-hijau bg-kuning">Span</span>
+</body>
+
+</html>
